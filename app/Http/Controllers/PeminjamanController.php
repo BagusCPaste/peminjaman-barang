@@ -379,8 +379,15 @@ class PeminjamanController extends Controller
             // Cari Pengguna terkait
             $pengguna = $this->getPenggunaFromUser($user);
             if (!$pengguna) {
-                \Log::error('Pengguna tidak ditemukan untuk user_id: ' . $user_id);
-                return response()->json([], 200); // Kembalikan array kosong jika tidak ada pengguna
+                // Buat pengguna baru jika tidak ditemukan
+                \Log::info('Membuat data pengguna baru untuk user_id: ' . $user_id);
+                $pengguna = Pengguna::create([
+                    'nama' => $user->name,
+                    'email' => $user->email,
+                    'nomor_telepon' => '',
+                    'jabatan' => $user->role ?? 'user'
+                ]);
+                \Log::info('Pengguna baru dibuat dengan ID: ' . $pengguna->id);
             }
             
             $peminjaman = Peminjaman::with(['pengguna', 'detailPeminjaman.barang'])

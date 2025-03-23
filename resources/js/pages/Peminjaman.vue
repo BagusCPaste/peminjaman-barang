@@ -944,13 +944,15 @@ const fetchData = async () => {
                     timestamp.toString()
                 );
             } else {
-                console.error(
-                    "[Peminjaman] Tidak dapat menemukan data peminjaman dalam response:",
+                console.log(
+                    "[Peminjaman] Tidak ditemukan data peminjaman:",
                     peminjamanRes.data
                 );
-                toast.error(
-                    "Format data peminjaman tidak valid, harap refresh halaman"
-                );
+
+                // Jangan tampilkan error ke user jika memang belum ada peminjaman
+                // toast.error(
+                //     "Format data peminjaman tidak valid, harap refresh halaman"
+                // );
 
                 // Coba gunakan cache peminjaman jika ada
                 const cachedPeminjaman = localStorage.getItem(
