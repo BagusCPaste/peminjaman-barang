@@ -1,8 +1,25 @@
 # Sistem Peminjaman Barang
 
-Aplikasi web untuk mengelola peminjaman dan inventaris barang dengan fitur lengkap untuk admin dan pengguna. Dibangun dengan Laravel, Vue.js, dan Tailwind CSS.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Sistem Peminjaman Barang" width="400px" />
+  <br>
+  <h2>Sistem Peminjaman Barang</h2>
+  <p><i>Aplikasi web modern untuk mengelola peminjaman dan inventaris barang</i></p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 10.x" />
+    <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js 3.x" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </p>
+</div>
 
-![Dashboard](docs/images/dashboard.png)
+Aplikasi web lengkap untuk mengelola peminjaman dan inventaris barang dengan fitur lengkap untuk admin dan pengguna. Dikembangkan dengan teknologi modern untuk memberikan pengalaman yang cepat, aman, dan responsif.
+
+<div align="center">
+  <p><strong>Dashboard Admin</strong></p>
+  <img src="https://github.com/BagusCPaste/peminjaman-barang/raw/main/docs/screenshots/dashboard-preview.jpg" alt="Dashboard Preview" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <p><i>Tampilan dashboard admin dengan statistik dan daftar barang (tambahkan screenshot Anda di docs/screenshots)</i></p>
+</div>
 
 ## Fitur Utama
 
@@ -12,6 +29,17 @@ Aplikasi web untuk mengelola peminjaman dan inventaris barang dengan fitur lengk
 -   **Manajemen Pengguna**: Kontrol pengguna dengan hak akses berbeda (admin dan user)
 -   **Mode Gelap/Terang**: Tampilan yang menyesuaikan preferensi pengguna
 -   **Responsif**: Tampilan optimal di desktop maupun perangkat mobile
+
+## Demo
+
+> 🔗 **Demo Aplikasi:** [soon](soon)  
+> Gunakan kredensial berikut untuk mencoba:
+>
+> -   Admin: admin@example.com / password
+> -   User: user@example.com / password
+
+_Catatan: URL demo di atas hanya contoh. Jika Anda telah men-deploy aplikasi ini, silakan ganti dengan URL demo aktual Anda._
+
 
 ## Teknologi yang Digunakan
 
@@ -36,7 +64,7 @@ Aplikasi web untuk mengelola peminjaman dan inventaris barang dengan fitur lengk
 ### Langkah 1: Clone Repository
 
 ```bash
-git clone https://github.com/username/peminjaman-barang.git
+git clone https://github.com/BagusCPaste/peminjaman-barang.git
 cd peminjaman-barang
 ```
 
@@ -258,6 +286,15 @@ Kontribusi selalu diterima! Jika Anda ingin berkontribusi:
 3. Commit perubahan (`git commit -m 'Menambahkan fitur baru'`)
 4. Push ke branch (`git push origin fitur-baru`)
 5. Buat Pull Request
+
+### Kontribusi Dokumentasi dan Screenshot
+
+Kami sangat menghargai kontribusi untuk memperbaiki dokumentasi dan menambahkan screenshot yang berkualitas:
+
+1. Untuk screenshot baru, ikuti panduan di bagian [Screenshot Aplikasi](#screenshot-aplikasi)
+2. Pastikan screenshot menampilkan fitur penting aplikasi
+3. Untuk dokumentasi, perbaiki penjelasan yang kurang jelas atau tambahkan informasi yang berguna
+4. Terjemahkan dokumentasi ke bahasa lain jika memungkinkan
 
 ## Lisensi
 
