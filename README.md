@@ -17,7 +17,7 @@ Aplikasi web lengkap untuk mengelola peminjaman dan inventaris barang dengan fit
 
 <div align="center">
   <p><strong>Dashboard Admin</strong></p>
-  <img src="https://github.com/BagusCPaste/peminjaman-barang/raw/main/docs/screenshots/dashboard-preview.jpg" alt="Dashboard Preview" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="https://github.com/BagusCPaste/peminjaman-barang/docs/first app.jpg" alt="Dashboard Preview" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
   <p><i>Tampilan dashboard admin dengan statistik dan daftar barang (tambahkan screenshot Anda di docs/screenshots)</i></p>
 </div>
 
@@ -35,7 +35,7 @@ Aplikasi web lengkap untuk mengelola peminjaman dan inventaris barang dengan fit
 > 🔗 **Demo Aplikasi:** [soon](soon)  
 > Gunakan kredensial berikut untuk mencoba:
 >
-> -   Admin: admin@example.com / password
+> -   Admin: admin@admin.com / password
 > -   User: user@example.com / password
 
 _Catatan: URL demo di atas hanya contoh. Jika Anda telah men-deploy aplikasi ini, silakan ganti dengan URL demo aktual Anda._
