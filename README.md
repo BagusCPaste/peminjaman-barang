@@ -277,25 +277,4 @@ Dashboard dapat dikustomisasi dengan mengubah file `resources/js/pages/Dashboard
 2. Daftarkan route baru di `routes/api.php`
 3. Akses melalui endpoint `/api/nama-endpoint`
 
-## Kontribusi
 
-Kontribusi selalu diterima! Jika Anda ingin berkontribusi:
-
-1. Fork repository
-2. Buat branch baru (`git checkout -b fitur-baru`)
-3. Commit perubahan (`git commit -m 'Menambahkan fitur baru'`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat Pull Request
-
-### Kontribusi Dokumentasi dan Screenshot
-
-Kami sangat menghargai kontribusi untuk memperbaiki dokumentasi dan menambahkan screenshot yang berkualitas:
-
-1. Untuk screenshot baru, ikuti panduan di bagian [Screenshot Aplikasi](#screenshot-aplikasi)
-2. Pastikan screenshot menampilkan fitur penting aplikasi
-3. Untuk dokumentasi, perbaiki penjelasan yang kurang jelas atau tambahkan informasi yang berguna
-4. Terjemahkan dokumentasi ke bahasa lain jika memungkinkan
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
